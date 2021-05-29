@@ -25,10 +25,13 @@ int main(void) {
 }
 float wallis_pi(int n)
 {
+  float pi=1;
 for(int j=1;j<n;j++)
 {
-  int t= (4*n*n);
+  int t= (4*j*j);
   float m = (float(t)/float(t-1));
+  pi=pi*m;
 }
+  return pi;
 }
 
