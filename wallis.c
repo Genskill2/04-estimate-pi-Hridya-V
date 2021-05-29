@@ -23,4 +23,11 @@ int main(void) {
     }
   }
 }
+float wallis_pi(int n)
+{
+for(int j=1;j<n;j++)
+{
+  int t= (4*n*n)
+}
+}
 
