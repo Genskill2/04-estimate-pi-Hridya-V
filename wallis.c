@@ -24,5 +24,16 @@ int main(void) {
   }
 }
 
- 
+ float wallis_pi(int n)
+{
+float piby2=1.0;
+for (int j=1;j<=n;j++)
+{
+int m=4*j*j;
+float t=float(m)/(float(m)-1);
+piby2*=t;
+}
+return (2*piby2);
+}
+
 
