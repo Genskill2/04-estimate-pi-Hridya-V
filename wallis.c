@@ -35,7 +35,7 @@ float t= (float) m/((float) m-1);
 piby2*=t;
 }
 float pi=2*piby2;
-return pi;;
+return pi;
 }
 
 
