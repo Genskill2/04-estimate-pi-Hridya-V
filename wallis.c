@@ -24,7 +24,11 @@ int main(void) {
   }
 }
 
+<<<<<<< HEAD
 float wallis_pi(int n)
+=======
+flfoat wallis_pi(int n)
+>>>>>>> 5d75df8d593213894328e09dee4d0d5f94e2f1b3
 {
 float piby2=1.0;
 for (int j=1;j<=n;j++)
@@ -36,4 +40,8 @@ piby2*=t;
 float pi=2*piby2;
 return pi;;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5d75df8d593213894328e09dee4d0d5f94e2f1b3
 
